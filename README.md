@@ -2,8 +2,9 @@
 
 ## Background : 
    
-   **Portfolio optimization** is one of the most interesting fields of study of financial mathematics. Since the birth of Modern Portfolio Theory (MPT) by Harry Markowitz, many scientists have studied a lot of analytical and numerical methods to build the best investment portfolio according to a defined set of assets. The power of genetic algorithms makes it possible to find the optimal portfolio.
-In dealing with this Optimization problem, Harry Markowitz 1959 developed a quantitative model, also called **mean-variance model**. The mean-variance model has been usually considered as either the minimization of an objective function representing the portfolio variance (risk) for a given level of return or the maximization of an objective function representing the portfolio return for a given level of risk.
+   **Portfolio optimization** is one of the most interesting fields of study of financial mathematics. Since the birth of Modern Portfolio Theory (MPT) by Harry Markowitz, many scientists have studied a lot of analytical and numerical methods to build the best investment portfolio according to a defined set of assets. The power of **genetic algorithms** makes it possible to find the optimal portfolio.
+   
+In dealing with this kind of Optimization problem, Harry Markowitz 1959 developed a quantitative model, also called **mean-variance model**. The mean-variance model has been usually considered as either the minimization of an objective function representing the portfolio variance (risk) for a given level of return or the maximization of an objective function representing the portfolio return for a given level of risk.
 
 ## Problem Statement: 
    Let’s say we have selected N financial assets we want to invest in. They can be stock, funds, bonds, ETF etc. Each one of them has many historical returns, that is the price relative difference from one period to another. Periods can be days, weeks, months and so on. Build an investment portfolio with a  mix of many assets (They can be stock, funds, bonds, ETF) together allocating a fraction x of total  capital to each one of them. Each fraction is called weight.  The goal of portfolio optimization is to find the values of the weights that Maximize returns and minimize risk simultaneously of our portfolio under some constraints.
@@ -11,7 +12,11 @@ In dealing with this Optimization problem, Harry Markowitz 1959 developed a quan
 ## Given Data:
 Four years monthly Closing Stock values of HDFC, ITC, L&T, M&M, Sun Pharma and TCS.
 
-## Approach and Tasks:
+## Approach:
+
+We shall be using **Genetic Algorithm** to find the weights such that we maximize the returns and at the same time minimize the risk. **Sharpe Ratio** will be used to evaluate the fitness.
+
+## Tasks:
 
 1. Read the data and combine them into one dataframe.
 2. Calculate the historical returns for 3 months, 6 months, 12 months, 24 months and 36 months for each of the stocks.
