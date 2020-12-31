@@ -14,7 +14,7 @@ Four years monthly Closing Stock values of HDFC, ITC, L&T, M&M, Sun Pharma and T
 
 ## Approach:
 
-We shall be using **Genetic Algorithm** to find the weights such that we maximize the returns and at the same time minimize the risk. **Sharpe Ratio** will be used to evaluate the fitness.
+We shall be using **Genetic Algorithm** to find the weights such that we maximize the returns and at the same time minimize the risk. **Sharpe Ratio** will be used to evaluate the fitness. Coding of the same will be carried out using python languge.
 
 ## Tasks:
 
