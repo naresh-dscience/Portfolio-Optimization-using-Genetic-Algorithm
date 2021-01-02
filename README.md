@@ -1,6 +1,6 @@
 # Portfolio-Optimization-using-Genetic-Algorithm
 
-## Background : 
+## Background: 
    
    **Portfolio optimization** is one of the most interesting fields of study of financial mathematics. Since the birth of Modern Portfolio Theory (MPT) by Harry Markowitz, many scientists have studied a lot of analytical and numerical methods to build the best investment portfolio according to a defined set of assets. The power of **genetic algorithms** makes it possible to find the optimal portfolio.
    
